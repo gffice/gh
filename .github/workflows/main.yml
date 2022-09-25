@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          url= < url.txt
+          url="cat url.txt"
           mkdir aaa
           cd aaa
           mkdir html
