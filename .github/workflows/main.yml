@@ -34,9 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          curl http://download.httrack.com/httrack-3.49.2.tar.gz
+          curl -L --progress-bar "http://download.httrack.com/httrack-3.49.2.tar.gz" -o ./httrack-3.49.2.tar.gz
           ls
           md aaa
+          ls ./aaa
           cp httrack-3.49.2.tar.gz ./aaa/
       - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
