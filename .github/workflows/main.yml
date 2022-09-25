@@ -39,6 +39,8 @@ jobs:
           mkdir aaa
           ls ./aaa
           cp httrack-3.49.2.tar.gz ./aaa/
+          cd aaa
+          tar -xzvf httrack-3.49.2.tar.gz
       - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
         with:
