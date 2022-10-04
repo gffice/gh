@@ -1,1 +1,1 @@
-"http://www.360doc.cn"
+"https://docs.pythontab.com"
