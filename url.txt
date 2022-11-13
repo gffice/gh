@@ -1,1 +1,1 @@
-"https://www.torproject.org"
+"https://blinkdl.github.io/AI-Writer/"
